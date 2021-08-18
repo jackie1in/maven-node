@@ -1,3 +1,3 @@
-- maven 3.8
+- maven 3.6.3
 - jdk8
 - node10.15
