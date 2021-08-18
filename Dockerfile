@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-ARG NODE_VERSION=v10.15.3
+ARG NODE_VERSION=v12.22.3
 ARG NODE_BASE_URL=https://nodejs.org/dist
 
 RUN mkdir -p /usr/share/node \
