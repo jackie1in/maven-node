@@ -9,7 +9,8 @@ RUN mkdir -p /usr/share/node \
   && rm -f /tmp/nodejs.tar.gz \
   && ln -s /usr/share/node/bin/node /usr/bin/node \
   && ln -s /usr/share/node/bin/npm /usr/bin/npm \
-  && npm install -g yarn
+  && npm install -g yarn \
+  && ln -s /usr/share/node/bin/yarn /usr/bin/yarn
 
 ARG MAVEN_VERSION=3.8.2
 ARG USER_HOME_DIR="/root"
